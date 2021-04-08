@@ -220,7 +220,7 @@ Debug mode is useful to test the download and verification process without havin
 
 The `BLOCKING_PROCESS_ACTION` variable controls the behavior of the script when it finds a blocking process running.
 
-There are five options:
+There are eight options:
 
 - `ignore`: continue even when blocking processes are found.
 - `silent_fail`: exit script without prompt or installation.
@@ -284,7 +284,8 @@ The display name of the installed application without the `.app` extensions.
 The type of installation. Possible values:
      - `dmg`: application in disk image file (drag'n drop installation)
      - `pkg`: flat pkg download
-     - `zip`: application in zip archive (`zip` or `tbz` extension)
+     - `zip`: application in zip archive (`zip` extension)
+     - `tbz`: application in tbz archive (`tbz` extension)
      - `pkgInDmg`: a pkg file inside a disk image
      - `pkgInZip`: a pkg file inside a zip
      - `appInDmgInZip`: an app in a dmg file that has been zip'ed
