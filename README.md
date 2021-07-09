@@ -12,7 +12,7 @@ I have put a lot of work into making it stable and safe, but I cannot - of cours
 
 ## Support and Contributing
 
-Discussion, support and advice around Installomator happens in the `#installomator` channel in the [MacAdmins Slack](https:/macadmins.org). Go there for support questions.
+Discussion, support and advice around Installomator happens in the `#installomator` channel in the [MacAdmins.org Slack](https://macadmins.org). Go there for support questions.
 
 Do not create an issue just when you have a questions, but do file an issue or pull request for bugs or wrong behavior. When in doubt, ask in the above Slack channel.
 
@@ -259,6 +259,12 @@ Since we now make a version checking, and only installs the software if the vers
 - ``:            When not set, software is only installed if it is newer/different in version (default)
 - `force`:       Install even if it’s the same version
 
+### Re-opening of closed app
+
+The `REOPEN` can be used to prevent the reopening of a closed app
+
+- `yes`:   (default) app will be reopened if it was closed
+- `no`:    app not reopened
 
 ### Adding applications/label blocks
 
@@ -327,6 +333,7 @@ Depending on the application or pkg there are a few more variables you can or ne
 - `appName`: (optional)
   File name of the app bundle in the dmg to verify and copy (include the `.app`).
   When not given, the `appName` is set to `$name.app`.
+  This is also the name of the app that will get reopned, if we closed any `blockingProcesses` (see further down)
 
 - `targetDir`: (optional)
   dmg or zip:
