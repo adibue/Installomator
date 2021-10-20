@@ -58,6 +58,7 @@ cisdem-documentreader
 citrixworkspace
 clevershare2
 clickshare
+cloudya
 code42
 coderunner
 colourcontrastanalyser
@@ -74,7 +75,7 @@ depnotify
 desktoppr
 detectxswift
 devonthink
-dialpad
+dialog
 discord
 docker
 drift
@@ -86,6 +87,7 @@ eraseinstall
 etrecheck
 evernote
 exelbanstats
+exifrenamer
 fantastical
 favro
 ferdi
@@ -134,9 +136,11 @@ istatmenus
 iterm2
 jabradirect
 jamfconnect
+jamfconnectconfiguration
 jamfmigrator
 jamfpppcutility
 jamfreenroller
+jetbrainsclion
 jetbrainsdatagrip
 jetbrainsintellijidea
 jetbrainsintellijideace
@@ -144,6 +148,7 @@ jetbrainsphpstorm
 jetbrainspycharm
 jetbrainspycharmce
 jetbrainstoolbox
+jetbrainswebstorm
 karabinerelements
 keepassxc
 keka
@@ -166,6 +171,7 @@ malwarebytes
 mattermost
 menumeters
 microsoftautoupdate
+microsoftazurestorageexplorer
 microsoftcompanyportal
 microsoftdefenderatp
 microsoftedge
@@ -187,6 +193,7 @@ microsoftvisualstudiocode
 microsoftword
 microsoftyammer
 miro
+montereyblocker
 musescore
 muzzle
 netnewswire
@@ -214,6 +221,7 @@ opera
 pacifist
 parsec
 pdfsam
+perimeter81
 pitch
 plantronicshub
 platypus
@@ -275,6 +283,7 @@ swiftruntimeforcommandlinetools
 sync
 tableaudesktop
 tableaureader
+tageditor
 taskpaper
 teamviewer
 teamviewerhost
@@ -287,6 +296,7 @@ theunarchiver
 things
 thunderbird
 toggltrack
+tom4aconverter
 torbrowser
 trex
 tunnelbear
@@ -294,6 +304,7 @@ tunnelblick
 umbrellaroamingclient
 uniconverter
 universaltypeclient
+utm
 vagrant
 vanilla
 veracrypt
@@ -316,12 +327,14 @@ wwdc
 xeroxphaser7800
 xink
 xquartz
+yed
 yubikeymanagerqt
 zappy
 zeplin
 zohoworkdrive
 zoom
 zoomclient
+zoomgov
 zoomrooms
 zulujdk11
 zulujdk13
