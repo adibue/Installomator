@@ -3011,14 +3011,6 @@ opera)
 	versionKey="CFBundleVersion"
     expectedTeamID="A2P9LX4JPN"
     ;;
-osquery)
-    name="osquery"
-    type="pkg"
-    packageID="io.osquery.agent"
-    downloadURL="$(downloadURLFromGit osquery osquery)"
-    appNewVersion="$(versionFromGit osquery osquery)"
-    expectedTeamID="3522FA9PXF"
-    ;;
 ottomatic)
     name="Otto Matic"
     type="dmg"
